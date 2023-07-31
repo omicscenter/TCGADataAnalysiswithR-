@@ -1,0 +1,44 @@
+---
+title: "Resources"
+format: 
+  html:
+    code-fold: false
+    code-tools: true
+editor: source
+---
+
+## Useful links
+- The NCI’s Genomic Data Commons (GDC): https://gdc.cancer.gov/.
+- TCGAbiolinks package: http://bioconductor.org/packages/TCGAbiolinks/
+- maftools package: http://bioconductor.org/packages/maftools/
+
+## Reference Articles
+
+- TCGAbiolinks:
+  - Colaprico, Antonio, et al. “TCGAbiolinks: an R/Bioconductor package for integrative analysis of TCGA data.” Nucleic acids research 44.8 (2015): e71-e71.
+Silva, Tiago C., et al. “TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages.” F1000Research 5 (2016). (https://f1000research.com/articles/5-1542/v2)
+  - Mounir, Mohamed, et al. “New functionalities in the TCGAbiolinks package for the study and integration of cancer data from GDC and GTEx.” PLoS computational biology 15.3 (2019): e1006701. (https://doi.org/10.1371/journal.pcbi.1006701)
+  -  Silva TC, Colaprico A, Olsen C et al.TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages [version 2; peer review: 1 approved, 2 approved with reservations]. F1000Research 2016, 5:1542
+(https://doi.org/10.12688/f1000research.8923.2). 
+
+- The NCI's Genomic Data Commons (GDC):
+  - Gao, Galen F., et al. “Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data.” Cell systems 9.1 (2019): 24-34. (https://doi.org/10.1016/j.cels.2019.06.006)
+
+- Maftools:
+  - Mayakonda A, Lin D, Assenov Y, Plass C, Koeffler PH (2018). “Maftools: efficient and comprehensive analysis of somatic variants in cancer.” Genome Research. doi: 10.1101/gr.239244.118.
+
+- Complexheatmap:
+  - Gu Z, Eils R, Schlesner M (2016). “Complex heatmaps reveal patterns and correlations in multidimensional genomic data.” Bioinformatics.
+
+##  R/Bioconductor Packages
+
+* [TCGAbiolinks](http://bioconductor.org/packages/TCGAbiolinks/)
+* [MultiAssayExperiment](http://bioconductor.org/packages/MultiAssayExperiment/)
+* [maftools](http://bioconductor.org/packages/maftools/)
+* [ComplexHeatmap](http://bioconductor.org/packages/ComplexHeatmap/)
+
+
+## Videos 
+- Welcome to the "R for Research" series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you're a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: {{< video https://youtu.be/dQhZjmw9BK0 title="R for Research || Fundamentals of R: Part 1" aspect-ratio="16x9" >}}
+
+- In Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out: {{< video https://youtu.be/f4AK5aPhGf4 title="R for Research || Fundamentals of R: Part 2" aspect-ratio="16x9" >}}
