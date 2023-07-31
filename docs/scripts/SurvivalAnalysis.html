@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FAQs - TCGA Data Analysis with R</title>
+<title>Survival Analysis with TCGA Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -76,27 +76,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./prework.html" rel="" target="">
+    <a class="nav-link" href="../prework.html" rel="" target="">
  <span class="menu-text">Prework</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./setup-guide.html" rel="" target="">
+    <a class="nav-link" href="../setup-guide.html" rel="" target="">
  <span class="menu-text">Setup Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
+    <a class="nav-link" href="../resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./q-and-a.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../q-and-a.html" rel="" target="">
  <span class="menu-text">FAQs</span></a>
   </li>  
 </ul>
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FAQs - TCGA Data Analysis with R</h1>
+<h1 class="title">Survival Analysis with TCGA Data</h1>
 </div>
 
 
@@ -155,23 +155,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Q1:</strong> Q1: What is TCGA?</p>
-<p>The Cancer Genome Atlas (TCGA) is a large-scale collaborative project that aimed to comprehensively characterize genomic and molecular alterations in various types of cancer. It provided an extensive collection of multi-omics data, including gene expression, DNA methylation, miRNA expression, copy number variation, and clinical information for thousands of tumor samples across multiple cancer types.</p>
-<p><strong>Q2:</strong> What types of data are available in TCGA?</p>
-<p>TCGA offers a diverse range of data types, including gene expression data, DNA methylation data, microRNA expression data, copy number variation data, somatic mutation data, and clinical information such as patient demographics, tumor stage, treatment information, and survival outcomes.</p>
-<p><strong>Q3:</strong> How can I access TCGA data using R?</p>
-<p>You can access TCGA data using R through the TCGAbiolinks package. TCGAbiolinks provides functionalities to download and preprocess TCGA data directly from the TCGA data portal, allowing you to quickly access and analyze the datasets in R.</p>
-<p><strong>Q4:</strong> What are some common R packages used in TCGA data analysis?</p>
-<p>Some common R packages used in TCGA data analysis include <code>TCGAbiolinks</code> (for data retrieval and preprocessing), dplyr (for data manipulation), <code>ggplot2</code> (for data visualization), <code>limma</code>, <code>edgeR</code>, and <code>DESeq2</code> (for differential gene expression analysis), and <code>survival</code> and <code>survminer</code> (for survival analysis).</p>
-<p><strong>Q5:</strong> Can I integrate multiple data types from TCGA in my analysis?</p>
-<p>Yes, you can integrate multiple data types from TCGA, such as gene expression, DNA methylation, and miRNA expression data. Integrating multiple omics data types can provide a more comprehensive understanding of the molecular mechanisms underlying cancer.</p>
-<p><strong>Q6:</strong> Do I need prior knowledge of cancer biology to take this course?</p>
-<p>While prior knowledge of cancer biology is recommended, it is not a strict requirement. The course assumes some familiarity with genomics concepts and R programming. Basic explanations of cancer biology concepts relevant to the analysis will be provided during the course.</p>
-<p><strong>Q7:</strong> How will the course be conducted? The course will be a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R.</p>
-<p><strong>Q8:</strong> What will be the format of the practical sessions? The practical sessions will involve working with real TCGA datasets in R. Participants will be given coding exercises and tutorials to practice data preprocessing, analysis, and visualization using R.</p>
-<p><strong>Q9:</strong> Will the course cover best practices for reproducible research? Yes, the course will emphasize the importance of reproducible research. Participants will be introduced to best practices for documenting their analysis and code to ensure transparency and replicability of their findings.</p>
-<p><strong>Q10:</strong> Can I apply the skills learned in the course to my own research projects?</p>
-<p>Absolutely! The skills and knowledge gained from the course can be directly applied to independent research projects involving TCGA data analysis. Participants will be well-equipped to continue their analysis beyond the scope of the course.</p>
 
 
 

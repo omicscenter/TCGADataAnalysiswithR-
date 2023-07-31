@@ -171,13 +171,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-and-tools-for-cancer-genomics" id="toc-data-and-tools-for-cancer-genomics" class="nav-link active" data-scroll-target="#data-and-tools-for-cancer-genomics">Data and Tools for Cancer Genomics</a></li>
-  <li><a href="#guideline-for-bioconductor-users" id="toc-guideline-for-bioconductor-users" class="nav-link" data-scroll-target="#guideline-for-bioconductor-users">Guideline for Bioconductor Users</a></li>
-  <li><a href="#required-software" id="toc-required-software" class="nav-link" data-scroll-target="#required-software">Required software</a></li>
-  <li><a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a></li>
-  <li><a href="#install-bioconductor-packages" id="toc-install-bioconductor-packages" class="nav-link" data-scroll-target="#install-bioconductor-packages">Install Bioconductor Packages</a></li>
-  <li><a href="#r-packages-rnaseq-and-single-cell-rna-seq-analysis" id="toc-r-packages-rnaseq-and-single-cell-rna-seq-analysis" class="nav-link" data-scroll-target="#r-packages-rnaseq-and-single-cell-rna-seq-analysis">R Packages RNASeq and Single-cell RNA-seq Analysis</a></li>
-  <li><a href="#blogs-for-r-programming-statistics-and-data-analyis" id="toc-blogs-for-r-programming-statistics-and-data-analyis" class="nav-link" data-scroll-target="#blogs-for-r-programming-statistics-and-data-analyis">Blogs for R Programming, Statistics, and Data Analyis</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link active" data-scroll-target="#useful-links">Useful links</a></li>
+  <li><a href="#reference-articles" id="toc-reference-articles" class="nav-link" data-scroll-target="#reference-articles">Reference Articles</a></li>
+  <li><a href="#rbioconductor-packages" id="toc-rbioconductor-packages" class="nav-link" data-scroll-target="#rbioconductor-packages">R/Bioconductor Packages</a></li>
   <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos">Videos</a></li>
   </ul>
 </nav>
@@ -202,91 +198,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="data-and-tools-for-cancer-genomics" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-tools-for-cancer-genomics">Data and Tools for Cancer Genomics</h2>
+<section id="useful-links" class="level2">
+<h2 class="anchored" data-anchor-id="useful-links">Useful links</h2>
 <ul>
-<li><p><a href="https://portal.gdc.cancer.gov/">The Cancer Genome Atlas (TCGA):</a> TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.</p></li>
-<li><p><a href="https://icgc.org/">International Cancer Genome Consortium (ICGC):</a> Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.</p></li>
-<li><p><a href="https://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO):</a> GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.</p></li>
-<li><p><a href="https://ega-archive.org/">European Genome-phenome Archive (EGA):</a> Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.</p></li>
-<li><p><a href="https://gdc.cancer.gov/">National Cancer Institute (NCI) Genomic Data Commons (GDC):</a> Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.</p></li>
-<li><p><a href="http://www.oncolnc.org/">OncoLnc</a>: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.</p></li>
-<li><p><a href="https://genome-cancer.ucsc.edu/">UCSC Cancer Genomics Browser:</a> The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.</p></li>
-<li><p><a href="http://www.ilincs.org/apps/grein/">GREIN : GEO RNA-seq Experiments Interactive Navigator:</a> GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).</p></li>
-<li><p><a href="http://gepia2.cancer-pku.cn/">GEPIA2</a>: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.</p></li>
-<li><p><a href="http://ualcan.path.uab.edu/">UALCAN</a>: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.</p></li>
-<li><p><a href="https://www.cbioportal.org/">cBioPortal for Cancer Genomics:</a>: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.</p></li>
-<li><p><a href="https://www.oncomine.org/resource/login.html">ONCOMINE</a>: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.</p></li>
+<li>The NCI’s Genomic Data Commons (GDC): https://gdc.cancer.gov/.</li>
+<li>TCGAbiolinks package: http://bioconductor.org/packages/TCGAbiolinks/</li>
+<li>maftools package: http://bioconductor.org/packages/maftools/</li>
 </ul>
 </section>
-<section id="guideline-for-bioconductor-users" class="level2">
-<h2 class="anchored" data-anchor-id="guideline-for-bioconductor-users">Guideline for Bioconductor Users</h2>
-<p><a href="https://bioconductor.org/">Bioconductor</a> is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.</p>
-</section>
-<section id="required-software" class="level2">
-<h2 class="anchored" data-anchor-id="required-software">Required software</h2>
+<section id="reference-articles" class="level2">
+<h2 class="anchored" data-anchor-id="reference-articles">Reference Articles</h2>
 <ul>
-<li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
-<li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
-</ul>
-</section>
-<section id="prework" class="level2">
-<h2 class="anchored" data-anchor-id="prework">Prework</h2>
-<p>Before attending the any workshop please have the following installed and configured on your machine. - Recent version of <strong>R</strong> - Recent version of <strong>RStudio</strong> - Most recent release of the <a href="https://www.bioconductor.org/install/"><strong>Bioconductor</strong></a> and other packages used in courses</p>
-<p>Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version =</span> <span class="st">"3.16"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<li>TCGAbiolinks:
 <ul>
-<li><p>Ensure you can knit R markdown documents</p>
+<li>Colaprico, Antonio, et al.&nbsp;“TCGAbiolinks: an R/Bioconductor package for integrative analysis of TCGA data.” Nucleic acids research 44.8 (2015): e71-e71. Silva, Tiago C., et al.&nbsp;“TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages.” F1000Research 5 (2016). (https://f1000research.com/articles/5-1542/v2)</li>
+<li>Mounir, Mohamed, et al.&nbsp;“New functionalities in the TCGAbiolinks package for the study and integration of cancer data from GDC and GTEx.” PLoS computational biology 15.3 (2019): e1006701. (https://doi.org/10.1371/journal.pcbi.1006701)</li>
+<li>Silva TC, Colaprico A, Olsen C et al.TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages [version 2; peer review: 1 approved, 2 approved with reservations]. F1000Research 2016, 5:1542 (https://doi.org/10.12688/f1000research.8923.2).</li>
+</ul></li>
+<li>The NCI’s Genomic Data Commons (GDC):
 <ul>
-<li>Open RStudio and create a new Rmarkdown document</li>
-<li>Save the document and check you are able to knit it.</li>
+<li>Gao, Galen F., et al.&nbsp;“Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data.” Cell systems 9.1 (2019): 24-34. (https://doi.org/10.1016/j.cels.2019.06.006)</li>
+</ul></li>
+<li>Maftools:
+<ul>
+<li>Mayakonda A, Lin D, Assenov Y, Plass C, Koeffler PH (2018). “Maftools: efficient and comprehensive analysis of somatic variants in cancer.” Genome Research. doi: 10.1101/gr.239244.118.</li>
+</ul></li>
+<li>Complexheatmap:
+<ul>
+<li>Gu Z, Eils R, Schlesner M (2016). “Complex heatmaps reveal patterns and correlations in multidimensional genomic data.” Bioinformatics.</li>
 </ul></li>
 </ul>
 </section>
-<section id="install-bioconductor-packages" class="level2">
-<h2 class="anchored" data-anchor-id="install-bioconductor-packages">Install Bioconductor Packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(<span class="st">"GenomicFeatures"</span>, <span class="st">"AnnotationDbi"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>The <code>install()</code> function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.</p>
-</section>
-<section id="r-packages-rnaseq-and-single-cell-rna-seq-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="r-packages-rnaseq-and-single-cell-rna-seq-analysis">R Packages RNASeq and Single-cell RNA-seq Analysis</h2>
+<section id="rbioconductor-packages" class="level2">
+<h2 class="anchored" data-anchor-id="rbioconductor-packages">R/Bioconductor Packages</h2>
 <ul>
-<li><code>DESeq2</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> is a widely used package for differential gene expression analysis in RNA-seq data.</li>
-<li><code>edgeR</code>: <a href="https://bioconductor.org/packages/release/bioc/html/edgeR.html">edgeR</a> is another popular package for differential gene expression analysis in RNA-seq data.</li>
-<li><code>limma</code>: <a href="https://bioconductor.org/packages/release/bioc/html/limma.html">limma</a> is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.</li>
-<li><code>Ballgown</code>: <a href="https://bioconductor.org/packages/release/bioc/html/ballgown.html">Ballgown</a> is a package for differential expression analysis and visualization of transcriptome assembly data.</li>
-<li><code>DEXSeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DEXSeq.html">DEXSeq</a> is specifically designed for the detection of differential exon usage in RNA-seq data.</li>
-<li><code>NOISeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/NOISeq.html">NOISeq</a> is a package for non-parametric analysis of differential expression in RNA-seq data.</li>
-<li><code>clusterProfiler</code>: <a href="https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html">clusterProfiler</a> is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.</li>
-<li><code>GenomicFeatures</code>: <a href="https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html">GenomicFeatures</a> provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.</li>
-<li><code>Seurat</code>: <a href="https://satijalab.org/seurat/">Seurat</a> is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.</li>
-</ul>
-</section>
-<section id="blogs-for-r-programming-statistics-and-data-analyis" class="level2">
-<h2 class="anchored" data-anchor-id="blogs-for-r-programming-statistics-and-data-analyis">Blogs for R Programming, Statistics, and Data Analyis</h2>
-<ul>
-<li>Programiz - <a href="https://www.datamentor.io/r-programming/">https://www.datamentor.io/r-programming/</a></li>
-<li>PennState STAT 484 - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
-<li>PennState Topics in R Statistical Language - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
-<li>Simply Statistics - <a href="https://simplystatistics.org/">https://simplystatistics.org/</a></li>
-<li>TutorialPoint - <a href="https://www.tutorialspoint.com/r/index.htm">https://www.tutorialspoint.com/r/index.htm</a></li>
-<li>R for Biologists - <a href="https://www.rforbiologists.org/">https://www.rforbiologists.org/</a></li>
-<li>Computational Genomics with R - <a href="https://compgenomr.github.io/book/">https://compgenomr.github.io/book/</a></li>
-<li>Stat and R - <a href="https://statsandr.com/">https://statsandr.com/</a></li>
-<li>Rafa Lab - <a href="https://rafalab.github.io/pages/harvardx.html">https://rafalab.github.io/pages/harvardx.html</a></li>
-<li>University of Florida - <a href="https://bolt.mph.ufl.edu/software/r-phc-6055/">https://bolt.mph.ufl.edu/software/r-phc-6055/</a></li>
+<li><a href="http://bioconductor.org/packages/TCGAbiolinks/">TCGAbiolinks</a></li>
+<li><a href="http://bioconductor.org/packages/MultiAssayExperiment/">MultiAssayExperiment</a></li>
+<li><a href="http://bioconductor.org/packages/maftools/">maftools</a></li>
+<li><a href="http://bioconductor.org/packages/ComplexHeatmap/">ComplexHeatmap</a></li>
 </ul>
 </section>
 <section id="videos" class="level2">
@@ -586,115 +535,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Resources"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: false</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data and Tools for Cancer Genomics  </span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">The Cancer Genome Atlas (TCGA):</span><span class="co">](https://portal.gdc.cancer.gov/)</span> TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">International Cancer Genome Consortium (ICGC):</span><span class="co">](https://icgc.org/)</span> Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Gene Expression Omnibus (GEO):</span><span class="co">](https://www.ncbi.nlm.nih.gov/geo/)</span> GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">European Genome-phenome Archive (EGA):</span><span class="co">](https://ega-archive.org/)</span> Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">National Cancer Institute (NCI) Genomic Data Commons (GDC):</span><span class="co">](https://gdc.cancer.gov/)</span> Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">OncoLnc</span><span class="co">](http://www.oncolnc.org/)</span>: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">UCSC Cancer Genomics Browser:</span><span class="co">](https://genome-cancer.ucsc.edu/)</span> The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GREIN : GEO RNA-seq Experiments Interactive Navigator:</span><span class="co">](http://www.ilincs.org/apps/grein/)</span> GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GEPIA2</span><span class="co">](http://gepia2.cancer-pku.cn/)</span>: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">UALCAN</span><span class="co">](http://ualcan.path.uab.edu/)</span>: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">cBioPortal for Cancer Genomics:</span><span class="co">](https://www.cbioportal.org/)</span>: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">ONCOMINE</span><span class="co">](https://www.oncomine.org/resource/login.html)</span>: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.</span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="fu">## Guideline for Bioconductor Users</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Bioconductor</span><span class="co">](https://bioconductor.org/)</span> is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## Required software</span></span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>R: <span class="ot">&lt;http://www.r-project.org/&gt;</span> (FREE)</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>RStudio (additional libraries required): <span class="ot">&lt;http://www.rstudio.com/&gt;</span> (FREE)</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## Prework</span></span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>Before attending the any workshop please have the following installed and configured on your machine.</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Recent version of **R**</span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Recent version of **RStudio**</span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Most recent release of the <span class="co">[</span><span class="ot">**Bioconductor**</span><span class="co">](https://www.bioconductor.org/install/)</span> and other packages used in courses</span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands. </span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, eval=FALSE}</span></span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version =</span> <span class="st">"3.16"</span>)</span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ensure you can knit R markdown documents</span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Open RStudio and create a new Rmarkdown document</span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Save the document and check you are able to knit it.</span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## Install Bioconductor Packages</span></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, eval=FALSE}</span></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>()</span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with</span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, eval=FALSE}</span></span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(<span class="st">"GenomicFeatures"</span>, <span class="st">"AnnotationDbi"</span>))</span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>The <span class="in">`install()`</span> function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.</span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## R Packages RNASeq and Single-cell RNA-seq Analysis</span></span>
-<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`DESeq2`</span>: <span class="co">[</span><span class="ot">DESeq2</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)</span> is a widely used package for differential gene expression analysis in RNA-seq data.</span>
-<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`edgeR`</span>: <span class="co">[</span><span class="ot">edgeR</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/edgeR.html)</span> is another popular package for differential gene expression analysis in RNA-seq data.</span>
-<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`limma`</span>: <span class="co">[</span><span class="ot">limma</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/limma.html)</span> is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.</span>
-<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`Ballgown`</span>: <span class="co">[</span><span class="ot">Ballgown</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/ballgown.html)</span> is a package for differential expression analysis and visualization of transcriptome assembly data.</span>
-<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`DEXSeq`</span>: <span class="co">[</span><span class="ot">DEXSeq</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/DEXSeq.html)</span> is specifically designed for the detection of differential exon usage in RNA-seq data.</span>
-<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`NOISeq`</span>: <span class="co">[</span><span class="ot">NOISeq</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/NOISeq.html)</span> is a package for non-parametric analysis of differential expression in RNA-seq data.</span>
-<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`clusterProfiler`</span>: <span class="co">[</span><span class="ot">clusterProfiler</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)</span> is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.</span>
-<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`GenomicFeatures`</span>: <span class="co">[</span><span class="ot">GenomicFeatures</span><span class="co">](https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html)</span> provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.</span>
-<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`Seurat`</span>: <span class="co">[</span><span class="ot">Seurat</span><span class="co">](https://satijalab.org/seurat/)</span> is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.</span>
-<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a><span class="fu">## Blogs for R Programming, Statistics, and Data Analyis </span></span>
-<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Programiz - <span class="co">[</span><span class="ot">https://www.datamentor.io/r-programming/</span><span class="co">](https://www.datamentor.io/r-programming/)</span></span>
-<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>PennState STAT 484 - <span class="co">[</span><span class="ot">https://online.stat.psu.edu/stat484/</span><span class="co">](https://online.stat.psu.edu/stat484/)</span></span>
-<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>PennState Topics in R Statistical Language - </span>
-<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a> <span class="co">[</span><span class="ot">https://online.stat.psu.edu/stat484/</span><span class="co">](https://online.stat.psu.edu/stat484/)</span></span>
-<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Simply Statistics - <span class="co">[</span><span class="ot">https://simplystatistics.org/</span><span class="co">](https://simplystatistics.org/)</span></span>
-<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>TutorialPoint - <span class="co">[</span><span class="ot">https://www.tutorialspoint.com/r/index.htm</span><span class="co">](https://www.tutorialspoint.com/r/index.htm)</span></span>
-<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>R for Biologists - <span class="co">[</span><span class="ot">https://www.rforbiologists.org/</span><span class="co">](https://www.rforbiologists.org/)</span></span>
-<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Computational Genomics with R -  <span class="co">[</span><span class="ot">https://compgenomr.github.io/book/</span><span class="co">](https://compgenomr.github.io/book/)</span></span>
-<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Stat and R - <span class="co">[</span><span class="ot">https://statsandr.com/</span><span class="co">](https://statsandr.com/)</span></span>
-<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Rafa Lab - <span class="co">[</span><span class="ot">https://rafalab.github.io/pages/harvardx.html</span><span class="co">](https://rafalab.github.io/pages/harvardx.html)</span></span>
-<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>University of Florida - <span class="co">[</span><span class="ot">https://bolt.mph.ufl.edu/software/r-phc-6055/</span><span class="co">](https://bolt.mph.ufl.edu/software/r-phc-6055/)</span></span>
-<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a><span class="fu">## Videos </span></span>
-<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Welcome to the "R for Research" series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you're a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: {{&lt; video https://youtu.be/dQhZjmw9BK0 title="R for Research || Fundamentals of R: Part 1" aspect-ratio="16x9" &gt;}}</span>
-<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>In Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out: {{&lt; video https://youtu.be/f4AK5aPhGf4 title="R for Research || Fundamentals of R: Part 2" aspect-ratio="16x9" &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Resources"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: false</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Useful links</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The NCI’s Genomic Data Commons (GDC): https://gdc.cancer.gov/.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>TCGAbiolinks package: http://bioconductor.org/packages/TCGAbiolinks/</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>maftools package: http://bioconductor.org/packages/maftools/</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reference Articles</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>TCGAbiolinks:</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Colaprico, Antonio, et al. “TCGAbiolinks: an R/Bioconductor package for integrative analysis of TCGA data.” Nucleic acids research 44.8 (2015): e71-e71.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Silva, Tiago C., et al. “TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages.” F1000Research 5 (2016). (https://f1000research.com/articles/5-1542/v2)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Mounir, Mohamed, et al. “New functionalities in the TCGAbiolinks package for the study and integration of cancer data from GDC and GTEx.” PLoS computational biology 15.3 (2019): e1006701. (https://doi.org/10.1371/journal.pcbi.1006701)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">  -  </span>Silva TC, Colaprico A, Olsen C et al.TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages <span class="co">[</span><span class="ot">version 2; peer review: 1 approved, 2 approved with reservations</span><span class="co">]</span>. F1000Research 2016, 5:1542</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>(https://doi.org/10.12688/f1000research.8923.2). </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The NCI's Genomic Data Commons (GDC):</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Gao, Galen F., et al. “Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data.” Cell systems 9.1 (2019): 24-34. (https://doi.org/10.1016/j.cels.2019.06.006)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Maftools:</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Mayakonda A, Lin D, Assenov Y, Plass C, Koeffler PH (2018). “Maftools: efficient and comprehensive analysis of somatic variants in cancer.” Genome Research. doi: 10.1101/gr.239244.118.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Complexheatmap:</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Gu Z, Eils R, Schlesner M (2016). “Complex heatmaps reveal patterns and correlations in multidimensional genomic data.” Bioinformatics.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">##  R/Bioconductor Packages</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">TCGAbiolinks</span><span class="co">](http://bioconductor.org/packages/TCGAbiolinks/)</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">MultiAssayExperiment</span><span class="co">](http://bioconductor.org/packages/MultiAssayExperiment/)</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">maftools</span><span class="co">](http://bioconductor.org/packages/maftools/)</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">ComplexHeatmap</span><span class="co">](http://bioconductor.org/packages/ComplexHeatmap/)</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## Videos </span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Welcome to the "R for Research" series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you're a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: {{&lt; video https://youtu.be/dQhZjmw9BK0 title="R for Research || Fundamentals of R: Part 1" aspect-ratio="16x9" &gt;}}</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>In Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out: {{&lt; video https://youtu.be/f4AK5aPhGf4 title="R for Research || Fundamentals of R: Part 2" aspect-ratio="16x9" &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
