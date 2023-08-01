@@ -48,4 +48,18 @@ We will use publicly available DNA methylation and gene expression datasets from
 
 2. Data Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.
 
-3. Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene 
+3. Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene  
+Identification of Differentially Methylated Regions (DMRs): Statistical methods, such as limma or DSS, were applied to identify DMRs between KIRC tumor and adjacent normal samples.
+
+4. Integrative Analysis: The DMRs were integrated with gene expression data using a linear regression model to identify enhancers associated with changes in gene expression.
+
+5. Functional Annotation: The identified DMRs and enhancer-gene pairs were annotated to relevant genomic features, such as enhancers, promoters, and genes.
+
+6. Pathway Analysis: Enrichment analysis of differentially expressed genes was performed to identify overrepresented biological pathways associated with KIRC.
+
+## Conclusion
+The ELMER pipeline provided valuable insights into the epigenetic regulation of gene expression in Kidney Renal Clear Cell Carcinoma (KIRC). The integrative analysis of DNA methylation and gene expression data revealed differentially methylated enhancer regions linked to changes in gene expression, potentially contributing to KIRC pathogenesis. The identified candidate enhancer-gene pairs and enriched biological pathways may serve as potential therapeutic targets and biomarkers for further investigation. This study highlights the significance of epigenetic mechanisms in cancer biology and provides a foundation for future research in KIRC epigenomics. However, further validation and functional studies are required to establish the clinical relevance of the findings and their potential implications for KIRC treatment and prognosis.
+
+
+
+

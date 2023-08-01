@@ -705,5 +705,12 @@
     "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
     "section": "Conclusion",
     "text": "Conclusion\nBy the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and the integration of methylation and gene expression data for ACC. Integrating these two types of data can provide valuable insights into the regulatory mechanisms and molecular alterations associated with ACC, contributing to potential advancements in diagnosis and treatment of this aggressive cancer."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#conclusion",
+    "href": "case-studies/case-study-01.html#conclusion",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis case study will equip you with essential skills in bioinformatics, R programming, and cancer research. By the end of this study, you will gain insights into downstream analysis and its significance in understanding the molecular characteristics of BRCA. Join us on this exciting journey as we uncover potential biomarkers and biological processes that contribute to BRCA development and progression."
   }
 ]
