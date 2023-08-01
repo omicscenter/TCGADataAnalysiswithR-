@@ -712,5 +712,47 @@
     "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
     "section": "Conclusion",
     "text": "Conclusion\nThis case study will equip you with essential skills in bioinformatics, R programming, and cancer research. By the end of this study, you will gain insights into downstream analysis and its significance in understanding the molecular characteristics of BRCA. Join us on this exciting journey as we uncover potential biomarkers and biological processes that contribute to BRCA development and progression."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html",
+    "href": "case-studies/case-study-04.html",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "",
+    "text": "In this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.\nELMER is a powerful bioinformatics tool that allows the identification of differentially methylated enhancers and their target genes, facilitating the exploration of gene regulatory networks and potential therapeutic targets."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html#introduction",
+    "href": "case-studies/case-study-04.html#introduction",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "",
+    "text": "In this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.\nELMER is a powerful bioinformatics tool that allows the identification of differentially methylated enhancers and their target genes, facilitating the exploration of gene regulatory networks and potential therapeutic targets."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html#dataset-description",
+    "href": "case-studies/case-study-04.html#dataset-description",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nWe will use publicly available DNA methylation and gene expression datasets from KIRC patients. By integrating these datasets using the ELMER pipeline, we aim to discover key regulatory elements and gene expression changes associated with KIRC."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html#objectives",
+    "href": "case-studies/case-study-04.html#objectives",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "Objectives",
+    "text": "Objectives\n\nData Retrieval and Preprocessing: Accessing the KIRC datasets, performing data cleaning, and normalizing methylation and expression data for downstream analysis.\nExploratory Data Analysis: Conducting an initial exploration of methylation and expression data to understand their distributions and characteristics.\nIdentification of Differentially Methylated Enhancers: Implementing the ELMER pipeline to identify differentially methylated enhancers associated with KIRC.\nIdentification of Target Genes: Determining the target genes regulated by the identified differentially methylated enhancers.\nFunctional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions associated with the target genes.\nVisualization: Creating informative plots and visualizations to effectively present the results of the ELMER analysis."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html#methods",
+    "href": "case-studies/case-study-04.html#methods",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "Methods",
+    "text": "Methods\n\nData Retrieval: Accessing the KIRC methylation and gene expression datasets from publicly available resources or data repositories.\nData Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.\nExploratory Data Analysis: Visualizing the distribution of methylation beta values, gene\nIdentification of Differentially Methylated Regions (DMRs): Statistical methods, such as limma or DSS, were applied to identify DMRs between KIRC tumor and adjacent normal samples.\nIntegrative Analysis: The DMRs were integrated with gene expression data using a linear regression model to identify enhancers associated with changes in gene expression.\nFunctional Annotation: The identified DMRs and enhancer-gene pairs were annotated to relevant genomic features, such as enhancers, promoters, and genes.\nPathway Analysis: Enrichment analysis of differentially expressed genes was performed to identify overrepresented biological pathways associated with KIRC."
+  },
+  {
+    "objectID": "case-studies/case-study-04.html#conclusion",
+    "href": "case-studies/case-study-04.html#conclusion",
+    "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe ELMER pipeline provided valuable insights into the epigenetic regulation of gene expression in Kidney Renal Clear Cell Carcinoma (KIRC). The integrative analysis of DNA methylation and gene expression data revealed differentially methylated enhancer regions linked to changes in gene expression, potentially contributing to KIRC pathogenesis. The identified candidate enhancer-gene pairs and enriched biological pathways may serve as potential therapeutic targets and biomarkers for further investigation. This study highlights the significance of epigenetic mechanisms in cancer biology and provides a foundation for future research in KIRC epigenomics. However, further validation and functional studies are required to establish the clinical relevance of the findings and their potential implications for KIRC treatment and prognosis."
   }
 ]
