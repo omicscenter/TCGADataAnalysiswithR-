@@ -4,6 +4,7 @@ project:
   render: 
     - "*.qmd"
     - "case-studies/*.qmd"
+    - "contents/*.qmd"
 
 website:
   navbar:
@@ -21,16 +22,22 @@ website:
         text: Resources
       - href: q-and-a.qmd
         text: FAQs
+      - text: Contents
+        menu:
+          - text: Introduction
+            url:  contents/01-introduction.qmd
+          - text: Working with TCGA Data
+            url:  contents/02-workinig-with-tcga-data.qmd
       - text: Case Studies 
         menu:
           - text: Case Study 01 
-            url:  case-studies/case-studies-01.qmd
+            url:  case-studies/case-study-01.qmd
           - text: Case Study 02 
-            url:  case-studies/case-studies-02.qmd
+            url:  case-studies/case-study-02.qmd
           - text: Case Study 03 
-            url:  case-studies/case-studies-03.qmd
+            url:  case-studies/case-study-03.qmd
           - text: Case Study 04 
-            url:  case-studies/case-studies-04.qmd
+            url:  case-studies/case-study-04.qmd
           
     right:
       - icon: globe
@@ -50,6 +57,9 @@ format:
     theme: [journal, theme.scss]
     css: styles.css
     toc: true
+    toc-location: right
+    toc-title: Contents
+    code-link: true
     code-overflow: scroll
     mainfont: "Atkinson Hyperlegible"
     highlight-style: a11y

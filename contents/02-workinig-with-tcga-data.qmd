@@ -1,5 +1,5 @@
 ---
-title: "Case Study 1: Pan Cancer Downstream Analysis BRCA"
+title: "Working with TCGA Data"
 subtitle: "TCGA Data Analysis with R"
 title-block-banner: true
 author:

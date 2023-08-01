@@ -227,21 +227,21 @@
     "objectID": "setup-guide.html#installing-r",
     "href": "setup-guide.html#installing-r",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "Installing R",
-    "text": "Installing R\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
+    "section": "Installing R\n",
+    "text": "Installing R\n\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
   },
   {
     "objectID": "setup-guide.html#installing-rstudio",
     "href": "setup-guide.html#installing-rstudio",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "Installing RStudio",
-    "text": "Installing RStudio\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\nCMD + Return on Mac\nCTRL + Enter on Windows\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
+    "section": "Installing RStudio\n",
+    "text": "Installing RStudio\n\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\n\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\n\nCMD + Return on Mac\n\nCTRL + Enter on Windows\n\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
   },
   {
     "objectID": "setup-guide.html#r-packages",
     "href": "setup-guide.html#r-packages",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "R Packages",
+    "section": "\nR Packages",
     "text": "R Packages\nPackages are the fundamental units of reproducible R code. They are collections of R code that typically share some common purpose. Examples:\n\ndplyr - package of functions for fast data set manipulation (subsetting, summarizing, rearranging, and joining together data sets);\nggplot2 - “R’s famous package for making beautiful graphics”; allows to build multiple-layers, highly customizable plots."
   },
   {
@@ -249,14 +249,14 @@
     "href": "setup-guide.html#installing-and-loading-r-packages",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Installing and Loading R Packages",
-    "text": "Installing and Loading R Packages\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
+    "text": "Installing and Loading R Packages\n\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\n\n\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
   },
   {
     "objectID": "setup-guide.html#working-with-r-rstudio",
     "href": "setup-guide.html#working-with-r-rstudio",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Working with R – RStudio",
-    "text": "Working with R – RStudio\nRStudio is an Integrated Development Environment (IDE) for R\n\nIt helps the user effectively use R\nMakes things easier\nIs NOT a dropdown statistical tool (such as Stata)\n\nSee Rcmdr or Radiant\n\nAll R Studio snapshots are taken from http://ayeimanol-r.net/2013/04/21/289/\n\n\n\n\n\n\n\n\n\n\n[source]"
+    "text": "Working with R – RStudio\nRStudio is an Integrated Development Environment (IDE) for R\n\nIt helps the user effectively use R\nMakes things easier\nIs NOT a dropdown statistical tool (such as Stata)\n\nSee Rcmdr or Radiant\n\n\n\nAll R Studio snapshots are taken from http://ayeimanol-r.net/2013/04/21/289/\n\n\n\n\n\n\n\n\n\n\n[source]"
   },
   {
     "objectID": "setup-guide.html#rstudio",
@@ -284,7 +284,7 @@
     "href": "setup-guide.html#working-with-r-in-r-studio---2-major-panes",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Working with R in R Studio - 2 major panes:",
-    "text": "Working with R in R Studio - 2 major panes:\n\nThe Source/Editor: “Analysis” Script + Interactive Exploration\n\nStatic copy of what you did (reproducibility)\nTop by default\n\nThe R Console: “interprets” whatever you type\n\nCalculator\nTry things out interactively, then add to your editor\nBottom by default"
+    "text": "Working with R in R Studio - 2 major panes:\n\nThe Source/Editor: “Analysis” Script + Interactive Exploration\n\nStatic copy of what you did (reproducibility)\nTop by default\n\n\nThe R Console: “interprets” whatever you type\n\nCalculator\nTry things out interactively, then add to your editor\nBottom by default"
   },
   {
     "objectID": "setup-guide.html#source-editor",
@@ -298,7 +298,7 @@
     "href": "setup-guide.html#r-console",
     "title": "Setup Guide: Install R and RStudio",
     "section": "R Console",
-    "text": "R Console\n\n\n\n\n\n\n\n\n\n\n\nWhere code is executed (where things happen)\nYou can type here for things interactively\nCode is not saved on your disk"
+    "text": "R Console\n\n\n\n\n\n\n\n\n\n\nWhere code is executed (where things happen)\nYou can type here for things interactively\nCode is not saved on your disk"
   },
   {
     "objectID": "setup-guide.html#rstudio-2",
@@ -340,7 +340,7 @@
     "href": "setup-guide.html#other-panes",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Other Panes",
-    "text": "Other Panes\n\nFiles - shows the files on your computer of the directory you are working in\nViewer - can view data or R objects\nHelp - shows help of R commands\nPlots - pictures and figures\nPackages - list of R packages that are loaded in memory"
+    "text": "Other Panes\n\n\nFiles - shows the files on your computer of the directory you are working in\n\nViewer - can view data or R objects\n\nHelp - shows help of R commands\n\nPlots - pictures and figures\n\nPackages - list of R packages that are loaded in memory"
   },
   {
     "objectID": "setup-guide.html#r-markdown-file",
@@ -368,7 +368,7 @@
     "href": "setup-guide.html#create-chunks",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Create Chunks",
-    "text": "Create Chunks\nTo create a new R code chunk:\nCopy paste an existing chunk in the R Markdown file and replace the code OR\n\nUse the insert code chunk button at the top of RStudio.\n\n\n\n\n\n\n\n\n\n\n\nSelect R as the language:"
+    "text": "Create Chunks\nTo create a new R code chunk:\nCopy paste an existing chunk in the R Markdown file and replace the code OR\n\nUse the insert code chunk button at the top of RStudio.\n\n\n\n\n\n\n\n\n\n\nSelect R as the language:"
   },
   {
     "objectID": "setup-guide.html#run-previous-chunks-button",
@@ -403,7 +403,7 @@
     "href": "setup-guide.html#useful-r-studio-shortcuts",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Useful R Studio Shortcuts",
-    "text": "Useful R Studio Shortcuts\n\nCtrl + Enter in your script evaluates that line of code\n\nIt’s like copying and pasting the code into the console for it to run.\n\nCtrl+1 takes you to the script page\nCtrl+2 takes you to the console\nhttp://www.rstudio.com/ide/docs/using/keyboard_shortcuts"
+    "text": "Useful R Studio Shortcuts\n\n\nCtrl + Enter in your script evaluates that line of code\n\nIt’s like copying and pasting the code into the console for it to run.\n\n\n\nCtrl+1 takes you to the script page\n\nCtrl+2 takes you to the console\nhttp://www.rstudio.com/ide/docs/using/keyboard_shortcuts"
   },
   {
     "objectID": "prework.html#major-concepts",

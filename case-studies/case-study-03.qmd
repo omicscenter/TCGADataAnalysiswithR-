@@ -12,7 +12,7 @@ author:
 date: last-modified
 date-format: "[Last Updated on] MMMM, YYYY"
 format: 
-  pdf:
+  html:
     toc: true  
     toc-location: right
     toc-title: Table of Contents

@@ -3,7 +3,6 @@ title: "Resources"
 format: 
   html:
     code-fold: false
-    code-tools: true
 editor: source
 ---
 
