@@ -8,7 +8,7 @@
 
 <meta name="author" content="Md. Jubayer Hossain">
 
-<title>Case Study 3: Integration of Methylation and Expression for ACC</title>
+<title>Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,7 +95,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -140,11 +140,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-contents">    
         <li>
-    <a class="dropdown-item" href="../contents/01-introduction.qmd" rel="" target="">
+    <a class="dropdown-item" href="../contents/01-Introduction.html" rel="" target="">
  <span class="dropdown-text">Introduction</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../contents/02-WorkingwithTCGAData.html" rel="" target="">
+    <a class="dropdown-item" href="../contents/02-workinig-with-tcga-data.html" rel="" target="">
  <span class="dropdown-text">Working with TCGA Data</span></a>
   </li>  
     </ul>
@@ -205,7 +205,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Case Study 3: Integration of Methylation and Expression for ACC</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <div class="quarto-title-block"><div><h1 class="title">Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
             <p class="subtitle lead">TCGA Data Analysis with R</p>
                       </div>
   </div>
@@ -245,7 +245,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#dataset-description" id="toc-dataset-description" class="nav-link" data-scroll-target="#dataset-description">Dataset Description</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -253,10 +263,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.</p>
+</section>
+<section id="dataset-description" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-description">Dataset Description</h2>
+<p>We will use publicly available datasets that provide methylation profiles and gene expression data from ACC patients. The integration of these two types of data will help us understand the epigenetic regulation of gene expression in ACC and potentially reveal novel biomarkers or therapeutic targets.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ol type="1">
+<li><p>Data Retrieval and Preprocessing: Accessing the methylation and gene expression datasets for ACC and performing necessary preprocessing steps, such as data cleaning and normalization.</p></li>
+<li><p>Exploratory Data Analysis: Conducting an initial exploration of both methylation and expression data to gain an understanding of their characteristics and distributions.</p></li>
+<li><p>Integration of Methylation and Expression Data: Developing strategies to integrate methylation and gene expression data, taking into account their respective platforms and features.</p></li>
+<li><p>Identification of Differentially Methylated and Expressed Genes: Identifying genes that are differentially methylated and differentially expressed in ACC compared to normal samples.</p></li>
+<li><p>Functional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions related to differentially methylated and expressed genes.</p></li>
+<li><p>Visualization: Creating informative plots and visualizations to effectively present the integrated data and analysis results.</p></li>
+</ol>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ol type="1">
+<li><p>Data Retrieval: Accessing the ACC methylation and gene expression datasets from publicly available resources or data repositories.</p></li>
+<li><p>Data Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.</p></li>
+<li><p>Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene expression levels, and relevant clinical information.</p></li>
+<li><p>Integration of Methylation and Expression Data: Developing appropriate statistical approaches or using R packages to integrate these two types of data.</p></li>
+<li><p>Differential Analysis: Conducting differential analysis to identify genes with significant changes in methylation and expression between ACC and normal samples.</p></li>
+<li><p>Functional Enrichment Analysis: Using bioinformatics tools or R packages to perform functional enrichment analysis of differentially methylated and expressed genes.</p></li>
+<li><p>Visualization: Generating integrated plots and visualizations to present the findings effectively.</p></li>
+</ol>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and the integration of methylation and gene expression data for ACC. Integrating these two types of data can provide valuable insights into the regulatory mechanisms and molecular alterations associated with ACC, contributing to potential advancements in diagnosis and treatment of this aggressive cancer.</p>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -544,7 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Case Study 3: Integration of Methylation and Expression for ACC"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Case Study 3:  Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "TCGA Data Analysis with R"</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span></span>
@@ -564,7 +609,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">    code-link: true</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true </span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="an">source:</span><span class="co"> editor </span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Introduction</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Dataset Description </span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>We will use publicly available datasets that provide methylation profiles and gene expression data from ACC patients. The integration of these two types of data will help us understand the epigenetic regulation of gene expression in ACC and potentially reveal novel biomarkers or therapeutic targets.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">## Objectives</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Data Retrieval and Preprocessing: Accessing the methylation and gene expression datasets for ACC and performing necessary preprocessing steps, such as data cleaning and normalization.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Exploratory Data Analysis: Conducting an initial exploration of both methylation and expression data to gain an understanding of their characteristics and distributions.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Integration of Methylation and Expression Data: Developing strategies to integrate methylation and gene expression data, taking into account their respective platforms and features.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Identification of Differentially Methylated and Expressed Genes: Identifying genes that are differentially methylated and differentially expressed in ACC compared to normal samples.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Functional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions related to differentially methylated and expressed genes.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Visualization: Creating informative plots and visualizations to effectively present the integrated data and analysis results.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## Methods</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Data Retrieval: Accessing the ACC methylation and gene expression datasets from publicly available resources or data repositories.</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Data Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene expression levels, and relevant clinical information.</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Integration of Methylation and Expression Data: Developing appropriate statistical approaches or using R packages to integrate these two types of data.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Differential Analysis: Conducting differential analysis to identify genes with significant changes in methylation and expression between ACC and normal samples.</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Functional Enrichment Analysis: Using bioinformatics tools or R packages to perform functional enrichment analysis of differentially methylated and expressed genes.</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span>Visualization: Generating integrated plots and visualizations to present the findings effectively.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusion</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and the integration of methylation and gene expression data for ACC. Integrating these two types of data can provide valuable insights into the regulatory mechanisms and molecular alterations associated with ACC, contributing to potential advancements in diagnosis and treatment of this aggressive cancer.</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

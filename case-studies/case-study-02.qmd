@@ -1,5 +1,5 @@
 ---
-title: "Case Study 2: Pan Cancer Downstream Analysis LGG"
+title: "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)"
 subtitle: "TCGA Data Analysis with R"
 title-block-banner: true
 author:
@@ -20,3 +20,43 @@ format:
     code-tools: true 
 source: editor 
 ---
+
+## Introduction
+In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.
+
+
+## Dataset Description
+The Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including LGG. The dataset contains gene expression profiles, clinical information, and other molecular data from LGG patients.
+
+## Objectives
+1. Data Retrieval and Preprocessing: Accessing the LGG dataset, performing data cleaning, normalization, and handling missing values to ensure reliable downstream analysis.
+
+2. Exploratory Data Analysis: Conducting an initial exploration of the data to understand the distribution and patterns of gene expression levels and clinical parameters.
+
+3. Differential Expression Analysis: Identifying genes that are differentially expressed in LGG compared to normal tissue samples.
+
+4. Gene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with the differentially expressed genes.
+
+5. Survival Analysis: Investigating the relationship between gene expression patterns and patient survival.
+
+6. Visualization: Creating informative plots and visualizations to effectively present the findings.
+
+## Methods
+- Data Retrieval: Accessing the LGG dataset from publicly available resources or data repositories.
+
+- Data Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure the quality of downstream analysis.
+
+- Exploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.
+
+- Differential Expression Analysis: Employing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in LGG.
+
+- Gene Set Enrichment Analysis: Utilizing bioinformatics tools or R packages to discover enriched pathways and functions related to differentially expressed genes.
+
+- Survival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.
+
+- Visualization: Generating plots and graphs using R's ggplot2 or other visualization libraries to effectively communicate the results.
+
+
+## Conclusion
+By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and cancer research, specifically in the context of LGG. Understanding the genetic alterations and molecular pathways associated with LGG can contribute to a deeper knowledge of this type of brain tumor and potentially lead to improved diagnostic and therapeutic strategies.
+

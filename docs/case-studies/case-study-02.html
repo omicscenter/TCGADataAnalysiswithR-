@@ -95,7 +95,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -140,11 +140,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-contents">    
         <li>
-    <a class="dropdown-item" href="../contents/01-introduction.qmd" rel="" target="">
+    <a class="dropdown-item" href="../contents/01-Introduction.html" rel="" target="">
  <span class="dropdown-text">Introduction</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../contents/02-WorkingwithTCGAData.html" rel="" target="">
+    <a class="dropdown-item" href="../contents/02-workinig-with-tcga-data.html" rel="" target="">
  <span class="dropdown-text">Working with TCGA Data</span></a>
   </li>  
     </ul>
@@ -245,7 +245,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#dataset-description" id="toc-dataset-description" class="nav-link" data-scroll-target="#dataset-description">Dataset Description</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -253,10 +263,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.</p>
+</section>
+<section id="dataset-description" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-description">Dataset Description</h2>
+<p>The Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including LGG. The dataset contains gene expression profiles, clinical information, and other molecular data from LGG patients.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ol type="1">
+<li><p>Data Retrieval and Preprocessing: Accessing the LGG dataset, performing data cleaning, normalization, and handling missing values to ensure reliable downstream analysis.</p></li>
+<li><p>Exploratory Data Analysis: Conducting an initial exploration of the data to understand the distribution and patterns of gene expression levels and clinical parameters.</p></li>
+<li><p>Differential Expression Analysis: Identifying genes that are differentially expressed in LGG compared to normal tissue samples.</p></li>
+<li><p>Gene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with the differentially expressed genes.</p></li>
+<li><p>Survival Analysis: Investigating the relationship between gene expression patterns and patient survival.</p></li>
+<li><p>Visualization: Creating informative plots and visualizations to effectively present the findings.</p></li>
+</ol>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ul>
+<li><p>Data Retrieval: Accessing the LGG dataset from publicly available resources or data repositories.</p></li>
+<li><p>Data Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure the quality of downstream analysis.</p></li>
+<li><p>Exploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.</p></li>
+<li><p>Differential Expression Analysis: Employing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in LGG.</p></li>
+<li><p>Gene Set Enrichment Analysis: Utilizing bioinformatics tools or R packages to discover enriched pathways and functions related to differentially expressed genes.</p></li>
+<li><p>Survival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.</p></li>
+<li><p>Visualization: Generating plots and graphs using R’s ggplot2 or other visualization libraries to effectively communicate the results.</p></li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and cancer research, specifically in the context of LGG. Understanding the genetic alterations and molecular pathways associated with LGG can contribute to a deeper knowledge of this type of brain tumor and potentially lead to improved diagnostic and therapeutic strategies.</p>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -564,7 +609,46 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">    code-link: true</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true </span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="an">source:</span><span class="co"> editor </span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">## Introduction</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Dataset Description</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>The Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including LGG. The dataset contains gene expression profiles, clinical information, and other molecular data from LGG patients.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="fu">## Objectives</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Data Retrieval and Preprocessing: Accessing the LGG dataset, performing data cleaning, normalization, and handling missing values to ensure reliable downstream analysis.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Exploratory Data Analysis: Conducting an initial exploration of the data to understand the distribution and patterns of gene expression levels and clinical parameters.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Differential Expression Analysis: Identifying genes that are differentially expressed in LGG compared to normal tissue samples.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Gene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with the differentially expressed genes.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Survival Analysis: Investigating the relationship between gene expression patterns and patient survival.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Visualization: Creating informative plots and visualizations to effectively present the findings.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## Methods</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Data Retrieval: Accessing the LGG dataset from publicly available resources or data repositories.</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Data Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure the quality of downstream analysis.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Exploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Differential Expression Analysis: Employing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in LGG.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Gene Set Enrichment Analysis: Utilizing bioinformatics tools or R packages to discover enriched pathways and functions related to differentially expressed genes.</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Survival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Visualization: Generating plots and graphs using R's ggplot2 or other visualization libraries to effectively communicate the results.</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusion</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and cancer research, specifically in the context of LGG. Understanding the genetic alterations and molecular pathways associated with LGG can contribute to a deeper knowledge of this type of brain tumor and potentially lead to improved diagnostic and therapeutic strategies.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

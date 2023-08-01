@@ -1,5 +1,5 @@
 ---
-title: "Case Study 3: Integration of Methylation and Expression for ACC"
+title: "Case Study 3:  Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)"
 subtitle: "TCGA Data Analysis with R"
 title-block-banner: true
 author:
@@ -20,3 +20,42 @@ format:
     code-tools: true 
 source: editor 
 ---
+
+## Introduction
+In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.
+
+## Dataset Description 
+We will use publicly available datasets that provide methylation profiles and gene expression data from ACC patients. The integration of these two types of data will help us understand the epigenetic regulation of gene expression in ACC and potentially reveal novel biomarkers or therapeutic targets.
+
+## Objectives
+1. Data Retrieval and Preprocessing: Accessing the methylation and gene expression datasets for ACC and performing necessary preprocessing steps, such as data cleaning and normalization.
+
+2. Exploratory Data Analysis: Conducting an initial exploration of both methylation and expression data to gain an understanding of their characteristics and distributions.
+
+3. Integration of Methylation and Expression Data: Developing strategies to integrate methylation and gene expression data, taking into account their respective platforms and features.
+
+4. Identification of Differentially Methylated and Expressed Genes: Identifying genes that are differentially methylated and differentially expressed in ACC compared to normal samples.
+
+5. Functional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions related to differentially methylated and expressed genes.
+
+6. Visualization: Creating informative plots and visualizations to effectively present the integrated data and analysis results.
+
+## Methods
+1. Data Retrieval: Accessing the ACC methylation and gene expression datasets from publicly available resources or data repositories.
+
+2. Data Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.
+
+3. Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene expression levels, and relevant clinical information.
+
+4. Integration of Methylation and Expression Data: Developing appropriate statistical approaches or using R packages to integrate these two types of data.
+
+5. Differential Analysis: Conducting differential analysis to identify genes with significant changes in methylation and expression between ACC and normal samples.
+
+6. Functional Enrichment Analysis: Using bioinformatics tools or R packages to perform functional enrichment analysis of differentially methylated and expressed genes.
+
+7. Visualization: Generating integrated plots and visualizations to present the findings effectively.
+
+## Conclusion
+By the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and the integration of methylation and gene expression data for ACC. Integrating these two types of data can provide valuable insights into the regulatory mechanisms and molecular alterations associated with ACC, contributing to potential advancements in diagnosis and treatment of this aggressive cancer.
+
+

@@ -1,5 +1,5 @@
 ---
-title: "Case Study 4: ELMER Pipeline - KIRC"
+title: "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)"
 subtitle: "TCGA Data Analysis with R"
 title-block-banner: true
 author:
@@ -20,3 +20,32 @@ format:
     code-tools: true 
 source: editor 
 ---
+
+## Introduction
+In this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.
+
+ELMER is a powerful bioinformatics tool that allows the identification of differentially methylated enhancers and their target genes, facilitating the exploration of gene regulatory networks and potential therapeutic targets.
+
+## Dataset Description
+We will use publicly available DNA methylation and gene expression datasets from KIRC patients. By integrating these datasets using the ELMER pipeline, we aim to discover key regulatory elements and gene expression changes associated with KIRC.
+
+## Objectives
+
+1. Data Retrieval and Preprocessing: Accessing the KIRC datasets, performing data cleaning, and normalizing methylation and expression data for downstream analysis.
+
+2. Exploratory Data Analysis: Conducting an initial exploration of methylation and expression data to understand their distributions and characteristics.
+
+3. Identification of Differentially Methylated Enhancers: Implementing the ELMER pipeline to identify differentially methylated enhancers associated with KIRC.
+
+4. Identification of Target Genes: Determining the target genes regulated by the identified differentially methylated enhancers.
+
+5. Functional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions associated with the target genes.
+
+6. Visualization: Creating informative plots and visualizations to effectively present the results of the ELMER analysis.
+
+## Methods
+1. Data Retrieval: Accessing the KIRC methylation and gene expression datasets from publicly available resources or data repositories.
+
+2. Data Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.
+
+3. Exploratory Data Analysis: Visualizing the distribution of methylation beta values, gene 

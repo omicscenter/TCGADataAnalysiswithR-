@@ -586,5 +586,124 @@
     "title": "Preparation",
     "section": "Install Bioconductor Packages",
     "text": "Install Bioconductor Packages\n\nBiocManager::install(c(\"TCGAbiolinks\", \"SummarizedExperiment\", \"maftools\"))"
+  },
+  {
+    "objectID": "case-studies/case-study-01.html",
+    "href": "case-studies/case-study-01.html",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "",
+    "text": "In this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#introduction",
+    "href": "case-studies/case-study-01.html#introduction",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "",
+    "text": "In this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#dataset-description",
+    "href": "case-studies/case-study-01.html#dataset-description",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nThe Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including BRCA. The dataset contains gene expression profiles, clinical information, and other relevant molecular data from BRCA patients."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#objectives",
+    "href": "case-studies/case-study-01.html#objectives",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "Objectives",
+    "text": "Objectives\n\nData Retrieval and Preprocessing: Fetching and preprocessing the BRCA dataset, including data cleaning, normalization, and handling missing values.\nExploratory Data Analysis: Conducting a preliminary exploration of the data to understand its characteristics and distributions.\nDifferential Expression Analysis: Identifying genes that are differentially expressed in BRCA compared to normal tissue samples.\nGene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with differentially expressed genes.\nSurvival Analysis: Analyzing the relationship between gene expression and patient survival.\nVisualization: Creating informative plots and visualizations to present the findings effectively."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#methods",
+    "href": "case-studies/case-study-01.html#methods",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "Methods",
+    "text": "Methods\n\nData Retrieval: Accessing the BRCA dataset using publicly available resources or data repositories.\nData Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure high-quality analysis.\nExploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.\nDifferential Expression Analysis: Utilizing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in BRCA.\nGene Set Enrichment Analysis: Employing bioinformatics tools or R packages to find enriched pathways and functions related to differentially expressed genes.\nSurvival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.\nVisualization: Generating plots and graphs using R’s ggplot2 or other visualization libraries to communicate results effectively."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html",
+    "href": "case-studies/case-study-02.html",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "",
+    "text": "In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html#introduction",
+    "href": "case-studies/case-study-02.html#introduction",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "",
+    "text": "In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html#dataset-description",
+    "href": "case-studies/case-study-02.html#dataset-description",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nThe Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including LGG. The dataset contains gene expression profiles, clinical information, and other molecular data from LGG patients."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html#objectives",
+    "href": "case-studies/case-study-02.html#objectives",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "Objectives",
+    "text": "Objectives\n\nData Retrieval and Preprocessing: Accessing the LGG dataset, performing data cleaning, normalization, and handling missing values to ensure reliable downstream analysis.\nExploratory Data Analysis: Conducting an initial exploration of the data to understand the distribution and patterns of gene expression levels and clinical parameters.\nDifferential Expression Analysis: Identifying genes that are differentially expressed in LGG compared to normal tissue samples.\nGene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with the differentially expressed genes.\nSurvival Analysis: Investigating the relationship between gene expression patterns and patient survival.\nVisualization: Creating informative plots and visualizations to effectively present the findings."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html#methods",
+    "href": "case-studies/case-study-02.html#methods",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "Methods",
+    "text": "Methods\n\nData Retrieval: Accessing the LGG dataset from publicly available resources or data repositories.\nData Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure the quality of downstream analysis.\nExploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.\nDifferential Expression Analysis: Employing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in LGG.\nGene Set Enrichment Analysis: Utilizing bioinformatics tools or R packages to discover enriched pathways and functions related to differentially expressed genes.\nSurvival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.\nVisualization: Generating plots and graphs using R’s ggplot2 or other visualization libraries to effectively communicate the results."
+  },
+  {
+    "objectID": "case-studies/case-study-02.html#conclusion",
+    "href": "case-studies/case-study-02.html#conclusion",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and cancer research, specifically in the context of LGG. Understanding the genetic alterations and molecular pathways associated with LGG can contribute to a deeper knowledge of this type of brain tumor and potentially lead to improved diagnostic and therapeutic strategies."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html",
+    "href": "case-studies/case-study-03.html",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "",
+    "text": "In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html#introduction",
+    "href": "case-studies/case-study-03.html#introduction",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "",
+    "text": "In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html#dataset-description",
+    "href": "case-studies/case-study-03.html#dataset-description",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nWe will use publicly available datasets that provide methylation profiles and gene expression data from ACC patients. The integration of these two types of data will help us understand the epigenetic regulation of gene expression in ACC and potentially reveal novel biomarkers or therapeutic targets."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html#objectives",
+    "href": "case-studies/case-study-03.html#objectives",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "Objectives",
+    "text": "Objectives\n\nData Retrieval and Preprocessing: Accessing the methylation and gene expression datasets for ACC and performing necessary preprocessing steps, such as data cleaning and normalization.\nExploratory Data Analysis: Conducting an initial exploration of both methylation and expression data to gain an understanding of their characteristics and distributions.\nIntegration of Methylation and Expression Data: Developing strategies to integrate methylation and gene expression data, taking into account their respective platforms and features.\nIdentification of Differentially Methylated and Expressed Genes: Identifying genes that are differentially methylated and differentially expressed in ACC compared to normal samples.\nFunctional Enrichment Analysis: Performing functional enrichment analysis to uncover enriched biological pathways and gene functions related to differentially methylated and expressed genes.\nVisualization: Creating informative plots and visualizations to effectively present the integrated data and analysis results."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html#methods",
+    "href": "case-studies/case-study-03.html#methods",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "Methods",
+    "text": "Methods\n\nData Retrieval: Accessing the ACC methylation and gene expression datasets from publicly available resources or data repositories.\nData Preprocessing: Cleaning the data, performing normalization for both methylation and expression data, and handling missing values.\nExploratory Data Analysis: Visualizing the distribution of methylation beta values, gene expression levels, and relevant clinical information.\nIntegration of Methylation and Expression Data: Developing appropriate statistical approaches or using R packages to integrate these two types of data.\nDifferential Analysis: Conducting differential analysis to identify genes with significant changes in methylation and expression between ACC and normal samples.\nFunctional Enrichment Analysis: Using bioinformatics tools or R packages to perform functional enrichment analysis of differentially methylated and expressed genes.\nVisualization: Generating integrated plots and visualizations to present the findings effectively."
+  },
+  {
+    "objectID": "case-studies/case-study-03.html#conclusion",
+    "href": "case-studies/case-study-03.html#conclusion",
+    "title": "Case Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and the integration of methylation and gene expression data for ACC. Integrating these two types of data can provide valuable insights into the regulatory mechanisms and molecular alterations associated with ACC, contributing to potential advancements in diagnosis and treatment of this aggressive cancer."
   }
 ]
