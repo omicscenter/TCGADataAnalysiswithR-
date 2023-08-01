@@ -8,24 +8,24 @@ editor: source
 ---
 
 ## Useful links
-- The NCI’s Genomic Data Commons (GDC): https://gdc.cancer.gov/.
-- TCGAbiolinks package: http://bioconductor.org/packages/TCGAbiolinks/
-- maftools package: http://bioconductor.org/packages/maftools/
+- The NCI’s Genomic Data Commons (GDC): <https://gdc.cancer.gov/>
+- TCGAbiolinks package: <http://bioconductor.org/packages/TCGAbiolinks/>
+- maftools package: <http://bioconductor.org/packages/maftools/> 
 
 ## Reference Articles
 
 - TCGAbiolinks:
   - Colaprico, Antonio, et al. “TCGAbiolinks: an R/Bioconductor package for integrative analysis of TCGA data.” Nucleic acids research 44.8 (2015): e71-e71.
-Silva, Tiago C., et al. “TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages.” F1000Research 5 (2016). (https://f1000research.com/articles/5-1542/v2)
-  - Mounir, Mohamed, et al. “New functionalities in the TCGAbiolinks package for the study and integration of cancer data from GDC and GTEx.” PLoS computational biology 15.3 (2019): e1006701. (https://doi.org/10.1371/journal.pcbi.1006701)
+Silva, Tiago C., et al. “TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages.” F1000Research 5 (2016). (<https://f1000research.com/articles/5-1542/v2>)
+  - Mounir, Mohamed, et al. “New functionalities in the TCGAbiolinks package for the study and integration of cancer data from GDC and GTEx.” PLoS computational biology 15.3 (2019): e1006701. (<https://doi.org/10.1371/journal.pcbi.1006701>)
   -  Silva TC, Colaprico A, Olsen C et al.TCGA Workflow: Analyze cancer genomics and epigenomics data using Bioconductor packages [version 2; peer review: 1 approved, 2 approved with reservations]. F1000Research 2016, 5:1542
-(https://doi.org/10.12688/f1000research.8923.2). 
+(<https://doi.org/10.12688/f1000research.8923.2>). 
 
 - The NCI's Genomic Data Commons (GDC):
-  - Gao, Galen F., et al. “Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data.” Cell systems 9.1 (2019): 24-34. (https://doi.org/10.1016/j.cels.2019.06.006)
+  - Gao, Galen F., et al. “Before and After: Comparison of Legacy and Harmonized TCGA Genomic Data Commons’ Data.” Cell systems 9.1 (2019): 24-34. (<https://doi.org/10.1016/j.cels.2019.06.006>)
 
 - Maftools:
-  - Mayakonda A, Lin D, Assenov Y, Plass C, Koeffler PH (2018). “Maftools: efficient and comprehensive analysis of somatic variants in cancer.” Genome Research. doi: 10.1101/gr.239244.118.
+  - Mayakonda A, Lin D, Assenov Y, Plass C, Koeffler PH (2018). “Maftools: efficient and comprehensive analysis of somatic variants in cancer.” Genome Research. <https://doi.org/10.1101/gr.239244.118>.
 
 - Complexheatmap:
   - Gu Z, Eils R, Schlesner M (2016). “Complex heatmaps reveal patterns and correlations in multidimensional genomic data.” Bioinformatics.

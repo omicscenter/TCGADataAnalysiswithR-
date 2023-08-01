@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "*.qmd"
+    - "case-studies/*.qmd"
 
 website:
   navbar:
@@ -18,6 +21,17 @@ website:
         text: Resources
       - href: q-and-a.qmd
         text: FAQs
+      - text: Case Studies 
+        menu:
+          - text: Case Study 01 
+            url:  case-studies/case-studies-01.qmd
+          - text: Case Study 02 
+            url:  case-studies/case-studies-02.qmd
+          - text: Case Study 03 
+            url:  case-studies/case-studies-03.qmd
+          - text: Case Study 04 
+            url:  case-studies/case-studies-04.qmd
+          
     right:
       - icon: globe
         href: https://omicscenter.github.io/
@@ -33,8 +47,11 @@ website:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 format:
   html:
-    theme: flaty
+    theme: [journal, theme.scss]
     css: styles.css
     toc: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
 editor: source 
 

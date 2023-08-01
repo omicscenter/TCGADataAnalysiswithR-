@@ -99,6 +99,29 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./q-and-a.html" rel="" target="">
  <span class="menu-text">FAQs</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-case-studies" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Case Studies</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-case-studies">    
+        <li>
+    <a class="dropdown-item" href="./case-studies/case-studies-01.qmd" rel="" target="">
+ <span class="dropdown-text">Case Study 01</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./case-studies/case-studies-02.qmd" rel="" target="">
+ <span class="dropdown-text">Case Study 02</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./case-studies/case-studies-03.qmd" rel="" target="">
+ <span class="dropdown-text">Case Study 03</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./case-studies/case-studies-04.qmd" rel="" target="">
+ <span class="dropdown-text">Case Study 04</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -137,8 +160,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#pre-requisites" id="toc-pre-requisites" class="nav-link" data-scroll-target="#pre-requisites">Pre-requisites</a></li>
+  <li><a href="#course-format" id="toc-course-format" class="nav-link" data-scroll-target="#course-format">Course Format</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -162,95 +189,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<table class="table">
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Instructor: <a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">🗓 July 16 - July 31, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">🏨 Medium - Zoom/Google Meet</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">💥 <strong>Register</strong> with <a href="https://forms.gle/hSH1ACSqDYYVsxie6">Google Forms</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">💥 <strong>Registration Fee</strong>: 1020 BDT (for students),1530BDT (for professionals)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">📝 To join private Telegram group for the course, follow instructions in the email you received after registration.</td>
-</tr>
-</tbody>
-</table>
 <section id="welcome" class="level1">
 <h1>Welcome!</h1>
 <p>The TCGA Data Analysis with R course is designed to equip participants with the knowledge and skills necessary to effectively analyze and interpret data from The Cancer Genome Atlas (TCGA) using the R programming language. TCGA is a valuable resource for cancer researchers, providing comprehensive genomic and clinical data on various cancer types. This course will cover essential concepts, tools, and techniques for data preprocessing, exploratory data analysis, differential gene expression analysis, survival analysis, and data visualization using R. Participants will gain hands-on experience by working with real TCGA datasets and will learn to derive meaningful insights from complex cancer genomics data.</p>
-<section id="learning-objectives" class="level4">
-<h4 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h4>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <ul>
 <li>Introduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).</li>
 <li>Demonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al.&nbsp;2015).</li>
 <li>Provide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.</li>
 </ul>
 </section>
-<section id="pre-requisites" class="level4">
-<h4 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h4>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
 <ul>
 <li>Basic knowledge of R syntax</li>
 <li>Understand the pipe operator (“%&gt;%”) (help material <a href="https://r4ds.had.co.nz/pipes.html" class="uri">https://r4ds.had.co.nz/pipes.html</a>)</li>
 <li>Understand the SummarizedExperiment data structure (help material <a href="http://bioconductor.org/packages/SummarizedExperiment/" class="uri">http://bioconductor.org/packages/SummarizedExperiment/</a>)</li>
 </ul>
 </section>
-<section id="course-format" class="level4">
-<h4 class="anchored" data-anchor-id="course-format">Course Format</h4>
+<section id="course-format" class="level2">
+<h2 class="anchored" data-anchor-id="course-format">Course Format</h2>
 <p>The course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.</p>
-</section>
-</section>
-<section id="schedule" class="level1">
-<h1>Schedule</h1>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tabular schedule
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It can be useful to include a tabular schedule with links.</p>
-</div>
-</div>
-<table class="table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Time</th>
-<th style="text-align: center;">Topic</th>
-<th style="text-align: center;">Instructor</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">9:00 - 10:30</td>
-<td style="text-align: center;">Session 1: Understanding GDC (Genomics Data Common) TCGAbiolinks</td>
-<td style="text-align: center;">Md. Jubayer Hossain</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10:45 - 12:00</td>
-<td style="text-align: center;">Session 2: Working with TCGA Data</td>
-<td style="text-align: center;">Instructor B, C</td>
-</tr>
-</tbody>
-</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

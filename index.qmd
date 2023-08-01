@@ -4,45 +4,22 @@ title: "TCGA Data Analysis with R"
 layout: full
 editor: source
 ---
-
-|                                                                                                                     |
-|:-----------------------------------------------------------------------|
-| Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)                                                    |
-| 🗓 July 16 - July 31, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)                                                    |
-| 🏨 Medium - Zoom/Google Meet                                                                                        |
-| 💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)                                            |
-| 💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)                                        |
-| 📝 To join private Telegram group for the course, follow instructions in the email you received after registration. |
-
 # Welcome!
 
 The TCGA Data Analysis with R course is designed to equip participants with the knowledge and skills necessary to effectively analyze and interpret data from The Cancer Genome Atlas (TCGA) using the R programming language. TCGA is a valuable resource for cancer researchers, providing comprehensive genomic and clinical data on various cancer types. This course will cover essential concepts, tools, and techniques for data preprocessing, exploratory data analysis, differential gene expression analysis, survival analysis, and data visualization using R. Participants will gain hands-on experience by working with real TCGA datasets and will learn to derive meaningful insights from complex cancer genomics data.
 
-#### Learning Objectives
+## Learning Objectives
 
 -   Introduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI's Genomic Data Commons (GDC).
 -   Demonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).
 -   Provide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.
 
-#### Pre-requisites
+## Pre-requisites
 
 -   Basic knowledge of R syntax
 -   Understand the pipe operator ("%\>%") (help material <https://r4ds.had.co.nz/pipes.html>)
 -   Understand the SummarizedExperiment data structure (help material <http://bioconductor.org/packages/SummarizedExperiment/>)
 
-#### Course Format
+## Course Format
 
 The course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.
-
-# Schedule
-
-::: callout-tip
-## Tabular schedule
-
-It can be useful to include a tabular schedule with links.
-:::
-
-|     Time      |                              Topic                               |     Instructor      |
-|:----------------:|:----------------------------------:|:----------------:|
-| 9:00 - 10:30  | Session 1: Understanding GDC (Genomics Data Common) TCGAbiolinks | Md. Jubayer Hossain |
-| 10:45 - 12:00 |                Session 2: Working with TCGA Data                 |   Instructor B, C   |
