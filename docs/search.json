@@ -625,42 +625,42 @@
   {
     "objectID": "case-studies/case-study-02.html",
     "href": "case-studies/case-study-02.html",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "",
     "text": "In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG."
   },
   {
     "objectID": "case-studies/case-study-02.html#introduction",
     "href": "case-studies/case-study-02.html#introduction",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "",
     "text": "In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG."
   },
   {
     "objectID": "case-studies/case-study-02.html#dataset-description",
     "href": "case-studies/case-study-02.html#dataset-description",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "Dataset Description",
     "text": "Dataset Description\nThe Pan Cancer Atlas project provides comprehensive genomic and transcriptomic data across various cancer types, including LGG. The dataset contains gene expression profiles, clinical information, and other molecular data from LGG patients."
   },
   {
     "objectID": "case-studies/case-study-02.html#objectives",
     "href": "case-studies/case-study-02.html#objectives",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "Objectives",
     "text": "Objectives\n\nData Retrieval and Preprocessing: Accessing the LGG dataset, performing data cleaning, normalization, and handling missing values to ensure reliable downstream analysis.\nExploratory Data Analysis: Conducting an initial exploration of the data to understand the distribution and patterns of gene expression levels and clinical parameters.\nDifferential Expression Analysis: Identifying genes that are differentially expressed in LGG compared to normal tissue samples.\nGene Set Enrichment Analysis: Uncovering enriched biological pathways and functions associated with the differentially expressed genes.\nSurvival Analysis: Investigating the relationship between gene expression patterns and patient survival.\nVisualization: Creating informative plots and visualizations to effectively present the findings."
   },
   {
     "objectID": "case-studies/case-study-02.html#methods",
     "href": "case-studies/case-study-02.html#methods",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "Methods",
     "text": "Methods\n\nData Retrieval: Accessing the LGG dataset from publicly available resources or data repositories.\nData Preprocessing: Cleaning the data, performing normalization, and handling missing values to ensure the quality of downstream analysis.\nExploratory Data Analysis: Visualizing the distribution of gene expression levels, clinical parameters, and demographic information.\nDifferential Expression Analysis: Employing statistical methods (e.g., t-tests, ANOVA) to identify genes with significant expression changes in LGG.\nGene Set Enrichment Analysis: Utilizing bioinformatics tools or R packages to discover enriched pathways and functions related to differentially expressed genes.\nSurvival Analysis: Employing survival analysis techniques to assess the impact of gene expression on patient survival.\nVisualization: Generating plots and graphs using R’s ggplot2 or other visualization libraries to effectively communicate the results."
   },
   {
     "objectID": "case-studies/case-study-02.html#conclusion",
     "href": "case-studies/case-study-02.html#conclusion",
-    "title": "Case Study 2: Pan Cancer Downstream Analysis LGG",
+    "title": "Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)",
     "section": "Conclusion",
     "text": "Conclusion\nBy the end of this case study, you will have gained practical experience in R programming, bioinformatics analysis, and cancer research, specifically in the context of LGG. Understanding the genetic alterations and molecular pathways associated with LGG can contribute to a deeper knowledge of this type of brain tumor and potentially lead to improved diagnostic and therapeutic strategies."
   },
@@ -754,5 +754,12 @@
     "title": "Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)",
     "section": "Conclusion",
     "text": "Conclusion\nThe ELMER pipeline provided valuable insights into the epigenetic regulation of gene expression in Kidney Renal Clear Cell Carcinoma (KIRC). The integrative analysis of DNA methylation and gene expression data revealed differentially methylated enhancer regions linked to changes in gene expression, potentially contributing to KIRC pathogenesis. The identified candidate enhancer-gene pairs and enriched biological pathways may serve as potential therapeutic targets and biomarkers for further investigation. This study highlights the significance of epigenetic mechanisms in cancer biology and provides a foundation for future research in KIRC epigenomics. However, further validation and functional studies are required to establish the clinical relevance of the findings and their potential implications for KIRC treatment and prognosis."
+  },
+  {
+    "objectID": "case-studies/case-study-01.html#data-analysis",
+    "href": "case-studies/case-study-01.html#data-analysis",
+    "title": "Case Study 1: Pan Cancer Downstream Analysis BRCA",
+    "section": "Data Analysis",
+    "text": "Data Analysis\nRequired packages\n\nlibrary(SummarizedExperiment)\nlibrary(TCGAbiolinks)\nlibrary(maftools)\n\nData retrieval\n\nquery.exp &lt;- GDCquery(\n    project = \"TCGA-BRCA\", \n    data.category = \"Transcriptome Profiling\",\n    data.type = \"Gene Expression Quantification\", \n    workflow.type = \"STAR - Counts\",\n    sample.type = c(\"Primary Tumor\",\"Solid Tissue Normal\")\n)\n\n--------------------------------------\n\n\no GDCquery: Searching in GDC database\n\n\n--------------------------------------\n\n\nGenome of reference: hg38\n\n\n--------------------------------------------\n\n\noo Accessing GDC. This might take a while...\n\n\n--------------------------------------------\n\n\nooo Project: TCGA-BRCA\n\n\n--------------------\n\n\noo Filtering results\n\n\n--------------------\n\n\nooo By data.type\n\n\nooo By workflow.type\n\n\nooo By sample.type\n\n\n----------------\n\n\noo Checking data\n\n\n----------------\n\n\nooo Checking if there are duplicated cases\n\n\nooo Checking if there are results for the query\n\n\n-------------------\n\n\no Preparing output\n\n\n-------------------"
   }
 ]

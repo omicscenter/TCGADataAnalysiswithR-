@@ -1,5 +1,5 @@
 ---
-pagetitle: "TCGA Data Analysis"
+pagetitle: "TCGA Data Analysis with R"
 title: "TCGA Data Analysis with R"
 layout: full
 editor: source

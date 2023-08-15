@@ -3,7 +3,6 @@
 # 2. https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html
 # 3. https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html
 
-
 # Load packages 
 library(tidyverse)
 library(TCGAbiolinks)
@@ -13,23 +12,17 @@ library(SummarizedExperiment)
 
 # get a list of projects 
 gdcprojects <- getGDCprojects()
-
+gdcprojects
 
 # get project summary 
 getProjectSummary('TCGA-BRCA')
+
 
 # build a query 
 query_TCGA <- GDCquery(project = 'TCGA-BRCA', 
          data.category = 'Transcriptome Profiling')
 
 output_query <- getResults(query_TCGA)
-
-
-# building a query
-query_TCGA <- GDCquery(project = 'TCGA-BRCA',
-                       data.category = 'Transcriptome Profiling')
-
-output_query_TCGA <- getResults(query_TCGA)
 
 
 # build a query to retrieve gene expression data
@@ -44,7 +37,7 @@ query_TCGA <- GDCquery(project = 'TCGA-BRCA',
 
 getResults(query_TCGA)
 
-# download data - GDCdownload
+# download data - GDCdownload() 
 GDCdownload(query_TCGA)
 
 
@@ -109,5 +102,3 @@ oncoplot(maf = maftools.input,
          top = 10,
          removeNonMutated = TRUE)
 
-
-?oncoplot
