@@ -2,9 +2,12 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "TCGA Data Analysis with R",
+    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
     "section": "",
-    "text": "The TCGA Data Analysis with R course is designed to equip participants with the knowledge and skills necessary to effectively analyze and interpret data from The Cancer Genome Atlas (TCGA) using the R programming language. TCGA is a valuable resource for cancer researchers, providing comprehensive genomic and clinical data on various cancer types. This course will cover essential concepts, tools, and techniques for data preprocessing, exploratory data analysis, differential gene expression analysis, survival analysis, and data visualization using R. Participants will gain hands-on experience by working with real TCGA datasets and will learn to derive meaningful insights from complex cancer genomics data.\n\n\n\nIntroduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).\nDemonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).\nProvide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.\n\n\n\n\n\nBasic knowledge of R syntax\nUnderstand the pipe operator (“%&gt;%”) (help material https://r4ds.had.co.nz/pipes.html)\nUnderstand the SummarizedExperiment data structure (help material http://bioconductor.org/packages/SummarizedExperiment/)\n\n\n\n\nThe course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours."
+    "text": "🧑 Instructor: Md. Jubayer Hossain\n\n\n🗓 July 5, 2024 - July 6, 2024 | 9:30 am - 12:30pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom\n\n\n💥 Register with Google Forms \n\n\n💥 Registration Fee: 1530BDT (for students), 2040BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "part_2_eda.html",
@@ -555,23 +558,32 @@
   {
     "objectID": "index.html#learning-objectives",
     "href": "index.html#learning-objectives",
-    "title": "TCGA Data Analysis with R",
-    "section": "",
-    "text": "Introduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).\nDemonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).\nProvide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools."
+    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nIntroduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).\nDemonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).\nProvide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#pre-requisites",
     "href": "index.html#pre-requisites",
-    "title": "TCGA Data Analysis with R",
-    "section": "",
-    "text": "Basic knowledge of R syntax\nUnderstand the pipe operator (“%&gt;%”) (help material https://r4ds.had.co.nz/pipes.html)\nUnderstand the SummarizedExperiment data structure (help material http://bioconductor.org/packages/SummarizedExperiment/)"
+    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\n\nBasic knowledge of R syntax\nUnderstand the pipe operator (“%&gt;%”) (help material https://r4ds.had.co.nz/pipes.html)\nUnderstand the SummarizedExperiment data structure (help material http://bioconductor.org/packages/SummarizedExperiment/)",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#course-format",
     "href": "index.html#course-format",
-    "title": "TCGA Data Analysis with R",
-    "section": "",
-    "text": "The course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours."
+    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "section": "Course Format",
+    "text": "Course Format\nThe course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "prework.html#install-bioconductor",

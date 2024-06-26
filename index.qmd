@@ -1,11 +1,27 @@
 ---
 pagetitle: "TCGA Data Analysis with R"
-title: "TCGA Data Analysis with R"
+title: "The Cancer Genome Atlas (TCGA) Data Analysis with R"
 layout: full
 editor: source
 ---
-# Welcome!
+------------------------------------------------------------------------
+🧑 Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
 
+🗓 July 5, 2024 - July 6, 2024 \| 9:30 am - 12:30pm (Bangladesh Time)
+
+🏨 Medium - Zoom
+
+💥 **Register** with [Google Forms](https://forms.gle/ke8U9uYxXmtvsgtk7) 
+<!-- **Registration**: *Closed* -->
+
+💥 **Registration Fee**: 1530BDT  (for students), 2040BDT (for professionals)
+
+📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
+------------------------------------------------------------------------
+
+
+
+# Welcome!
 The TCGA Data Analysis with R course is designed to equip participants with the knowledge and skills necessary to effectively analyze and interpret data from The Cancer Genome Atlas (TCGA) using the R programming language. TCGA is a valuable resource for cancer researchers, providing comprehensive genomic and clinical data on various cancer types. This course will cover essential concepts, tools, and techniques for data preprocessing, exploratory data analysis, differential gene expression analysis, survival analysis, and data visualization using R. Participants will gain hands-on experience by working with real TCGA datasets and will learn to derive meaningful insights from complex cancer genomics data.
 
 ## Learning Objectives
