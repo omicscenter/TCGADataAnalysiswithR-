@@ -39,3 +39,22 @@ The TCGA Data Analysis with R course is designed to equip participants with the 
 ## Course Format
 
 The course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.
+
+## What you'll learn?
+### Case Study 1: Pan Cancer Downstream Analysis BRCA
+In this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type.
+
+### Case Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)
+In this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.
+
+### Case Study 3:  Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)
+In this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.
+
+### Case Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)
+
+In this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.
+
+
+
+
+
