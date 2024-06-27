@@ -560,7 +560,7 @@
     "href": "index.html#learning-objectives",
     "title": "R for Cancer Bioinformatics",
     "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nIntroduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).\nDemonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).\nProvide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.",
+    "text": "Learning Objectives\n\nMaster the Fundamentals of R: Gain proficiency in basic R programming essential for bioinformatics workflows.\nPerform Data Wrangling with R: Learn to manipulate and prepare large datasets for analysis using R.\nUtilize TCGAbiolinks: Develop skills to efficiently download and manage genomic data from the GDC portal using TCGAbiolinks.\nAnalyze Somatic Mutations with maftools: Acquire the ability to conduct comprehensive somatic mutation analysis using the maftools package.\nConduct Pan-Cancer Downstream Analysis: Explore methods for multi-cancer comparative studies, focusing on BRCA and Low-Grade Glioma (LGG).\nIntegrate Multi-Omic Data: Learn techniques to integrate methylation and expression data, with a focus on Adrenocortical Carcinoma (ACC).\nApply the ELMER Pipeline: Implement the ELMER pipeline for integrative analysis of DNA methylation and gene expression, particularly in Kidney Renal Clear Cell Carcinoma (KIRC).",
     "crumbs": [
       "Home"
     ]
