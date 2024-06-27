@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "title": "R for Cancer Bioinformatics",
     "section": "",
-    "text": "🧑 Instructor: Md. Jubayer Hossain\n\n\n🗓 July 5, 2024 - July 6, 2024 | 9:30 am - 12:30pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom\n\n\n💥 Register with Google Forms \n\n\n💥 Registration Fee: 1530BDT (for students), 2040BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.",
+    "text": "🧑 Instructor: Md. Jubayer Hossain\n\n\n🗓 July 5, 2024 - July 6, 2024 | 9:30 am - 12:30pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom\n\n\n💥 Register with Google Forms \n\n\n💥 Registration Fee: 1020BDT (for students), 1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.",
     "crumbs": [
       "Home"
     ]
@@ -558,7 +558,7 @@
   {
     "objectID": "index.html#learning-objectives",
     "href": "index.html#learning-objectives",
-    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "title": "R for Cancer Bioinformatics",
     "section": "Learning Objectives",
     "text": "Learning Objectives\n\nIntroduce you to the TCGA (The Cancer Genome Atlas) data available at the NCI’s Genomic Data Commons (GDC).\nDemonstrate how to access and import TCGA data using the R/Bioconductor package TCGAbiolinks (Colaprico et al. 2015).\nProvide instruction to visualize copy number alteration and mutation data using the R/Bioconductor package maftools.",
     "crumbs": [
@@ -568,7 +568,7 @@
   {
     "objectID": "index.html#pre-requisites",
     "href": "index.html#pre-requisites",
-    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "title": "R for Cancer Bioinformatics",
     "section": "Pre-requisites",
     "text": "Pre-requisites\n\nBasic knowledge of R syntax\nUnderstand the pipe operator (“%&gt;%”) (help material https://r4ds.had.co.nz/pipes.html)\nUnderstand the SummarizedExperiment data structure (help material http://bioconductor.org/packages/SummarizedExperiment/)",
     "crumbs": [
@@ -578,7 +578,7 @@
   {
     "objectID": "index.html#course-format",
     "href": "index.html#course-format",
-    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "title": "R for Cancer Bioinformatics",
     "section": "Course Format",
     "text": "Course Format\nThe course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.",
     "crumbs": [
@@ -777,9 +777,9 @@
   {
     "objectID": "index.html#what-youll-learn",
     "href": "index.html#what-youll-learn",
-    "title": "The Cancer Genome Atlas (TCGA) Data Analysis with R",
+    "title": "R for Cancer Bioinformatics",
     "section": "What you’ll learn?",
-    "text": "What you’ll learn?\n\nCase Study 1: Pan Cancer Downstream Analysis BRCA\nIn this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type.\n\n\nCase Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)\nIn this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.\n\n\nCase Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)\nIn this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.\n\n\nCase Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)\nIn this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.",
+    "text": "What you’ll learn?\n\n\nCase Study 1: Pan Cancer Downstream Analysis BRCA\nIn this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type.\n\n\nCase Study 2: Pan Cancer Downstream Analysis of LGG (Low-Grade Glioma)\nIn this case study, we will embark on a bioinformatics journey to analyze the LGG (Low-Grade Glioma) cancer dataset from the Pan Cancer Atlas. Our focus will be on utilizing R programming and basic bioinformatics concepts to gain valuable insights into the genetic and molecular characteristics of LGG.\n\n\nCase Study 3: Integration of Methylation and Expression Data for Adrenocortical Carcinoma (ACC)\nIn this case study, we will dive into the field of bioinformatics and cancer research by exploring the integration of methylation and gene expression data for Adrenocortical Carcinoma (ACC). ACC is a rare and aggressive cancer that originates in the adrenal cortex. Our primary focus will be on utilizing R programming to integrate these two types of data and gain deeper insights into the molecular characteristics of ACC.\n\n\nCase Study 4: ELMER Pipeline for Integrative Analysis of DNA Methylation and Gene Expression in Kidney Renal Clear Cell Carcinoma (KIRC)\nIn this case study, we will delve into the world of bioinformatics and cancer research by exploring the ELMER (Enhancer Linking by Methylation/Expression Relationships) pipeline for integrative analysis of DNA methylation and gene expression data in Kidney Renal Clear Cell Carcinoma (KIRC). KIRC is the most common type of kidney cancer, and understanding the epigenetic regulation of gene expression in this cancer can provide valuable insights into its molecular mechanisms.",
     "crumbs": [
       "Home"
     ]

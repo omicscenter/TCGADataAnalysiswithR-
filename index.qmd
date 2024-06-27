@@ -1,6 +1,7 @@
 ---
 pagetitle: "TCGA Data Analysis with R"
-title: "The Cancer Genome Atlas (TCGA) Data Analysis with R"
+title: "R for Cancer Bioinformatics"
+subtitle: "Decoding Cancer: TCGA Data Analysis with R"
 layout: full
 editor: source
 ---
@@ -14,7 +15,7 @@ editor: source
 💥 **Register** with [Google Forms](https://forms.gle/ke8U9uYxXmtvsgtk7) 
 <!-- **Registration**: *Closed* -->
 
-💥 **Registration Fee**: 1530BDT  (for students), 2040BDT (for professionals)
+💥 **Registration Fee**: 1020BDT  (for students), 1530BDT (for professionals)
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 ------------------------------------------------------------------------
@@ -41,6 +42,7 @@ The TCGA Data Analysis with R course is designed to equip participants with the 
 The course will be delivered through a combination of lectures, hands-on practical sessions, and interactive discussions. Participants will have access to real TCGA datasets and will be guided through step-by-step analysis using R. Additionally, participants will be provided with relevant learning resources, including code examples and data repositories, to support their learning outside the course hours.
 
 ## What you'll learn?
+<!-- https://www.bioconductor.org/packages/devel/bioc/vignettes/TCGAbiolinks/inst/doc/casestudy.html -->
 ### Case Study 1: Pan Cancer Downstream Analysis BRCA
 In this case study, we will delve into the world of bioinformatics and cancer research by performing a downstream analysis of the BRCA (Breast Invasive Carcinoma) cancer dataset from the Pan Cancer Atlas. Our primary focus will be on utilizing R programming and basic concepts of bioinformatics and data analysis to gain insights into this specific cancer type.
 
